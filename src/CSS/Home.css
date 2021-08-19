@@ -1,0 +1,80 @@
+.Home {
+  background-color: #2c3e50;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 3% 0%;
+  background-attachment: fixed;
+}
+
+/* image_Home */
+.image_Home img {
+  width: 137px;
+  border-radius: 50%;
+  height: 152px;
+  box-shadow: rgb(0 0 0 / 32%) 0px 2px 10px 0px;
+}
+
+.svg_home {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+/* Data_Home */
+.Data_Home {
+  margin: 5px 0px;
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.text_Home {
+  color: white;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+.para_Home {
+  margin-top: 9px;
+  color: lightgray;
+  text-indent: 87px;
+  font-size: 17px;
+  letter-spacing: 2px;
+  font-family: "Roboto";
+}
+
+/* social icon */
+
+.socialLink_Home {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.socialLink_Home a {
+  margin-bottom: -4px;
+}
+.icon {
+  font-size: 26px;
+  color: white;
+  margin: 0px 5px;
+}
+.button_Home {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 6px;
+}
+.Home_Cv_Button {
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 550px) {
+  .Data_Home {
+    width: 85%;
+  }
+}

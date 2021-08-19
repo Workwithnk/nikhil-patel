@@ -1,0 +1,31 @@
+.Quote {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #4cd137;
+  padding: 10px 0px;
+}
+.Quote p {
+  font-size: 34px;
+  color: white;
+  font-family: "Style Script", cursive;
+  letter-spacing: 2px;
+}
+.Quote_Icon {
+  font-size: 30px;
+  margin: 0px 13px;
+  color: white;
+}
+.wave_Quote img {
+  width: 100%;
+  margin-top: -14px;
+}
+
+@media only screen and (max-width: 550px) {
+  .Quote_Icon {
+    font-size: 15px;
+  }
+  .Quote p {
+    font-size: 22px;
+  }
+}

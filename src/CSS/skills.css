@@ -1,0 +1,55 @@
+.skill {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: -7%;
+  margin-bottom: 10px;
+}
+
+/* skill header */
+.skill h1 {
+  font-size: 30px;
+  font-family: "Roboto";
+  letter-spacing: 2px;
+  font-weight: bold;
+  border-bottom: 1px solid #2c3e50;
+  color: #2c3e50;
+}
+
+.data_skill {
+  width: 60%;
+  margin: 15px 0px;
+}
+
+.allData {
+  margin: 5px 0px;
+}
+
+.skill_name {
+  font-size: 18px;
+  font-family: monospace;
+  color: #2c3e50;
+}
+.progressBar {
+  width: 100%;
+  background-color: #9fa9bc;
+  border-radius: 10px;
+}
+.progress {
+  border-radius: 10px;
+  background-color: #5c6577;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.progress span {
+  margin-right: 5px;
+}
+
+@media only screen and (max-width: 550px) {
+  .data_skill {
+    width: 80%;
+  }
+}
