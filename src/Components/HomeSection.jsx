@@ -1,10 +1,11 @@
 import React from "react";
 import image from "../Images/Logo_Rm.png";
 import Typist from "react-text-typist";
-import { FaDev, FaFacebook, FaGithub, FaInstagram } from "react-icons/fa";
+
 import { Button } from "@material-ui/core";
 import cv from "../NikhilKavathiya.pdf";
 import "../CSS/Home.css";
+import SocialLink from "./SocialLink";
 
 function HomeSection() {
   return (
@@ -33,7 +34,7 @@ function HomeSection() {
           launch website, and donations webapp for a local charity. Regular
           attendee of web developer meetups and hackathons.
         </p>
-        <div className="socialLink_Home">
+        {/* <div className="socialLink_Home">
           <a
             href="https://www.facebook.com/nikhil.kavathiya.378"
             className="socialIcons"
@@ -52,15 +53,18 @@ function HomeSection() {
           <a href="https://github.com/workwithnk/" className="socialIcons">
             <FaGithub className="icon" />
           </a>
-        </div>
+        </div> */}
+        <SocialLink />
         <div className="button_Home">
-          <Button
-            className="btn_Home"
-            variant="contained"
-            style={{ margin: "0px 5px" }}
-          >
-            Hire me
-          </Button>
+          <a herf="#contact">
+            <Button
+              className="btn_Home"
+              variant="contained"
+              style={{ margin: "0px 5px" }}
+            >
+              Hire me
+            </Button>
+          </a>
           <a href={cv} className="Home_Cv_Button" download>
             <Button
               className="btn_Home"

@@ -1,0 +1,63 @@
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.contact h1 {
+  font-size: 30px;
+  font-family: "Roboto";
+  letter-spacing: 2px;
+  font-weight: bold;
+  border-bottom: 1px solid #2c3e50;
+  color: #2c3e50;
+}
+.data_contact {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0px;
+}
+.data {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 2vw 6vw;
+  background-color: #ecf0f1;
+  padding: 10px 10px;
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.icon_contact {
+  font-size: 35px;
+  margin: 10px;
+  color: #2c3e50;
+}
+.data span {
+  font-size: 20px;
+  font-family: "Roboto";
+}
+
+@media only screen and (max-width: 715px) {
+  .contact {
+    padding: 10px 0px;
+  }
+  .data_contact {
+    flex-direction: column;
+  }
+  .data {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .data {
+    width: 95%;
+  }
+  .data span {
+    font-size: 17px;
+  }
+}

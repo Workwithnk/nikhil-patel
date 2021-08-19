@@ -1,0 +1,14 @@
+.socialLink_Home {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.socialLink_Home a {
+  margin-bottom: -4px;
+}
+.icon {
+  font-size: 26px;
+  color: #2ecc71;
+  margin: 0px 5px;
+}

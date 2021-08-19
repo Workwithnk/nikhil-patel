@@ -15,16 +15,18 @@ function myFunction() {
   var scrolled = (winScroll / height) * 100;
   document.getElementById("myBar").style.width = scrolled + "%";
 }
-
 function MobileNavBar() {
   const [showMenu, setShowMenu] = useState(false);
 
   return (
     <div className="MobileNavBar">
+      <div className="progress-container">
+        <div className="progress-bar" id="myBar"></div>
+      </div>
       <div className="Mobile_Data_NavBar">
         <div className="Mobile_Logo_Nav">
           {/* logo */}
-          <a href="#">
+          <a href="https://nikhil-kavathiya-4a985.web.app/">
             <img src={Logo} alt="logo" />
           </a>
         </div>
@@ -57,9 +59,6 @@ function MobileNavBar() {
             <CgMenuRightAlt className="Mobile_menu" />
           )}
         </div>
-      </div>
-      <div className="progress-container">
-        <div className="progress-bar" id="myBar"></div>
       </div>
     </div>
   );

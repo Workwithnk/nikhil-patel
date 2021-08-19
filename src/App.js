@@ -1,4 +1,6 @@
 import React from "react";
+import Contact from "./Components/Contact";
+import Footer from "./Components/Footer";
 import HomeSection from "./Components/HomeSection";
 import MobileNavBar from "./Components/MobileNavBar";
 import NavBar from "./Components/NavBar";
@@ -16,6 +18,8 @@ function App() {
       <Quote />
       <Skills />
       <Projects />
+      <Contact />
+      <Footer />
     </div>
   );
 }
