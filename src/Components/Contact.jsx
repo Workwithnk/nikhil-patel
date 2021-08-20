@@ -23,7 +23,7 @@ function Contact() {
       <SocialLink />
       <img
         src={Contact_wave}
-        style={{ width: "100%", marginBottom: "-10px" }}
+        style={{ width: "100%", marginBottom: "-11px" }}
         alt="wave"
       />
     </div>

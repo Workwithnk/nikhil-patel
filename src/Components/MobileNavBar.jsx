@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Logo from "../Images/logo1.png";
 import { CgMenuRightAlt, CgClose } from "react-icons/cg";
+import { Link } from "react-scroll";
 import "../CSS/MobileNavBar.css";
 
 window.onscroll = function () {
@@ -26,27 +27,57 @@ function MobileNavBar() {
       <div className="Mobile_Data_NavBar">
         <div className="Mobile_Logo_Nav">
           {/* logo */}
-          <a href="https://nikhil-kavathiya-4a985.web.app/">
+          <Link to="home" smooth={true} duration={1000}>
             <img src={Logo} alt="logo" />
-          </a>
+          </Link>
         </div>
         {showMenu && (
           <div className="Mobile_Links_Nav">
-            <a className="Mobile_link_Nav" href="#home">
+            <Link
+              style={{ cursor: "pointer" }}
+              smooth={true}
+              className="Mobile_link_Nav"
+              to="home"
+              duration={1000}
+            >
               Home
-            </a>
-            <a className="Mobile_link_Nav" href="#quote">
+            </Link>
+            <Link
+              style={{ cursor: "pointer" }}
+              className="Mobile_link_Nav"
+              to="quote"
+              smooth={true}
+              duration={1000}
+            >
               Quote
-            </a>
-            <a className="Mobile_link_Nav" href="#skill">
+            </Link>
+            <Link
+              style={{ cursor: "pointer" }}
+              className="Mobile_link_Nav"
+              to="skill"
+              smooth={true}
+              duration={1000}
+            >
               Skills
-            </a>
-            <a className="Mobile_link_Nav" href="#project">
+            </Link>
+            <Link
+              style={{ cursor: "pointer" }}
+              className="Mobile_link_Nav"
+              to="project"
+              smooth={true}
+              duration={1000}
+            >
               Projects
-            </a>
-            <a className="Mobile_link_Nav" href="#">
+            </Link>
+            <Link
+              style={{ cursor: "pointer" }}
+              className="Mobile_link_Nav"
+              to="contact"
+              smooth={true}
+              duration={1000}
+            >
               Contacts
-            </a>
+            </Link>
           </div>
         )}
         <div

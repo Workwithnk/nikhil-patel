@@ -15,7 +15,7 @@ const footerStyle = {
 function Footer() {
   return (
     <div style={footerStyle}>
-      <p>Powerd By nk</p>
+      <p>Powerd by nk ❤</p>
     </div>
   );
 }

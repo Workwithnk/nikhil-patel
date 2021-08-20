@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 import Logo from "../Images/logo1.png";
 import "../CSS/NavBar.css";
 window.onscroll = function () {
@@ -20,26 +21,61 @@ function NavBar() {
       <div className="Data_NavBar">
         <div className="Logo_Nav">
           {/* logo */}
-          <a href="#">
+          <Link
+            style={{ cursor: "pointer" }}
+            to="home"
+            smooth={true}
+            duration={1000}
+          >
             <img src={Logo} alt="logo" />
-          </a>
+          </Link>
         </div>
         <div className="Links_Nav">
-          <a className="link_Nav" href="#home">
+          <Link
+            style={{ cursor: "pointer" }}
+            smooth={true}
+            className="link_Nav"
+            to="home"
+            duration={1000}
+          >
             Home
-          </a>
-          <a className="link_Nav" href="#quote">
+          </Link>
+          <Link
+            style={{ cursor: "pointer" }}
+            className="link_Nav"
+            to="quote"
+            smooth={true}
+            duration={1000}
+          >
             Quote
-          </a>
-          <a className="link_Nav" href="#skill">
+          </Link>
+          <Link
+            style={{ cursor: "pointer" }}
+            className="link_Nav"
+            to="skill"
+            smooth={true}
+            duration={1000}
+          >
             Skills
-          </a>
-          <a className="link_Nav" href="#project">
+          </Link>
+          <Link
+            style={{ cursor: "pointer" }}
+            className="link_Nav"
+            to="project"
+            smooth={true}
+            duration={1000}
+          >
             Projects
-          </a>
-          <a className="link_Nav" href="#">
+          </Link>
+          <Link
+            style={{ cursor: "pointer" }}
+            className="link_Nav"
+            to="contact"
+            smooth={true}
+            duration={1000}
+          >
             Contacts
-          </a>
+          </Link>
         </div>
       </div>
       <div className="progress-container">

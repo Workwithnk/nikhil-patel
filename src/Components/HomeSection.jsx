@@ -1,7 +1,7 @@
 import React from "react";
 import image from "../Images/Logo_Rm.png";
 import Typist from "react-text-typist";
-
+import { Link } from "react-scroll";
 import { Button } from "@material-ui/core";
 import cv from "../NikhilKavathiya.pdf";
 import "../CSS/Home.css";
@@ -34,29 +34,14 @@ function HomeSection() {
           launch website, and donations webapp for a local charity. Regular
           attendee of web developer meetups and hackathons.
         </p>
-        {/* <div className="socialLink_Home">
-          <a
-            href="https://www.facebook.com/nikhil.kavathiya.378"
-            className="socialIcons"
-          >
-            <FaFacebook className=" icon" />
-          </a>
-          <a
-            href="https://www.instagram.com/i._.am._.nk/?igshid=1hevhi9xzvwul"
-            className="socialIcons"
-          >
-            <FaInstagram className=" icon" />
-          </a>
-          <a href="https://dev.to/workwithnk" className="socialIcons">
-            <FaDev className=" icon" />
-          </a>
-          <a href="https://github.com/workwithnk/" className="socialIcons">
-            <FaGithub className="icon" />
-          </a>
-        </div> */}
         <SocialLink />
         <div className="button_Home">
-          <a herf="#contact">
+          <Link
+            className="Home_Hire_Button"
+            to="contact"
+            smooth={true}
+            duration={1000}
+          >
             <Button
               className="btn_Home"
               variant="contained"
@@ -64,7 +49,7 @@ function HomeSection() {
             >
               Hire me
             </Button>
-          </a>
+          </Link>
           <a href={cv} className="Home_Cv_Button" download>
             <Button
               className="btn_Home"
