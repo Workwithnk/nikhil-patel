@@ -4,8 +4,9 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding: 3% 0%;
-  background-attachment: fixed;
+  padding-top: 12%;
+  padding-bottom: 3%;
+  background-blend-mode: darken;
 }
 
 /* image_Home */
@@ -67,5 +68,8 @@
   }
   .para_Home {
     text-indent: 15px;
+  }
+  .Home {
+    padding-top: 70px;
   }
 }
