@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.979f37b3.chunk.css",
-    "main.js": "/static/js/main.07ac1457.chunk.js",
-    "main.js.map": "/static/js/main.07ac1457.chunk.js.map",
+    "main.js": "/static/js/main.91ef1897.chunk.js",
+    "main.js.map": "/static/js/main.91ef1897.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.24ee7844.js",
     "runtime-main.js.map": "/static/js/runtime-main.24ee7844.js.map",
     "static/js/2.455822e9.chunk.js": "/static/js/2.455822e9.chunk.js",
@@ -13,13 +13,13 @@
     "static/css/main.979f37b3.chunk.css.map": "/static/css/main.979f37b3.chunk.css.map",
     "static/js/2.455822e9.chunk.js.LICENSE.txt": "/static/js/2.455822e9.chunk.js.LICENSE.txt",
     "static/media/Logo_Rm.6eeae8c0.png": "/static/media/Logo_Rm.6eeae8c0.png",
-    "static/media/NikhilKavathiya.608c4f07.pdf": "/static/media/NikhilKavathiya.608c4f07.pdf",
+    "static/media/NikhilKavathiya.b52f9056.pdf": "/static/media/NikhilKavathiya.b52f9056.pdf",
     "static/media/logo1.ba7ad306.png": "/static/media/logo1.ba7ad306.png"
   },
   "entrypoints": [
     "static/js/runtime-main.24ee7844.js",
     "static/js/2.455822e9.chunk.js",
     "static/css/main.979f37b3.chunk.css",
-    "static/js/main.07ac1457.chunk.js"
+    "static/js/main.91ef1897.chunk.js"
   ]
 }
