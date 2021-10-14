@@ -6,7 +6,7 @@ import "../CSS/Project.css";
 function Projects() {
   const initialVal = 0;
   const [index, setIndex] = useState(initialVal);
-  const [maxIndex, setMaxIndex] = useState(13);
+  const [maxIndex, setMaxIndex] = useState(ProjectData.length - 1);
   const handleLeft = () => {
     if (index <= 0) {
       setIndex(maxIndex);
@@ -15,7 +15,7 @@ function Projects() {
     }
   };
   const handleRight = () => {
-    if (index >= 13) {
+    if (index >= ProjectData.length - 1) {
       setIndex(initialVal);
     } else {
       setIndex(index + 1);

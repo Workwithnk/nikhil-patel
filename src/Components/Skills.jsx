@@ -1,11 +1,12 @@
 import React from "react";
 import { SkillsData } from "./SkillsData";
+
 import "../CSS/skills.css";
 
 function Skills() {
   return (
     <div className="skill" id="skill">
-      <h1>Skills</h1>
+      <h1 className="pageHeader">Skills</h1>
       <div className="data_skill">
         {SkillsData.map((data) => {
           return (

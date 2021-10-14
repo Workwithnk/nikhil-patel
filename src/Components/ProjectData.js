@@ -1,5 +1,13 @@
 const projects = [
   {
+    id: 0.05,
+    name: "WayForDev",
+    url: "https://wayfordev.web.app/",
+    code: "https://github.com/Workwithnk/WayFordev",
+    imageUrl: "https://wayfordev.web.app/static/media/Logo.6fcec371.png",
+    dis: "Wayfordev is single page webapp to provinding way for all developer's.",
+  },
+  {
     id: 1,
     name: "Gamer's Zone",
     url: "http://gamer-s-zone-dea0b.web.app",
@@ -110,6 +118,14 @@ const projects = [
     imageUrl:
       "https://ichef.bbci.co.uk/news/976/cpsprodpb/1F36/production/_118109970_livreal.jpg",
     dis: "Scorrer is single page webapp , that showing the past matches highlights.  ",
+  },
+  {
+    id: 15,
+    name: "Foodie",
+    url: "https://foodie-796e2.web.app/",
+    imageUrl:
+      "https://www.themealdb.com/images/media/meals/twspvx1511784937.jpg",
+    dis: "get the best food recipe on this single page application  ",
   },
 ];
 
